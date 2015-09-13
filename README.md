@@ -2,9 +2,9 @@
 DS1302 library for arduino
 example:
 
-#define CLK 5
-#define DATA 6
-#define RST 7
+int CLK 5
+int DATA 6
+int RST 7
 
 char buffer[80];
 static int_time prev_time, curr_time;
