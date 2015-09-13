@@ -10,7 +10,7 @@ int RST 7;
 
 char buffer[80];
 
-static int_time curr_time;
+int_time curr_time;
 
 ds1302_struct rtc(CLK, DATA, RST);
 
