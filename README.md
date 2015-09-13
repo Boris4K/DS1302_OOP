@@ -3,7 +3,9 @@ DS1302 library for arduino
 example:
 
 int CLK 5
+
 int DATA 6
+
 int RST 7
 
 char buffer[80];
